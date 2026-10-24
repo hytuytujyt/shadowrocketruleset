@@ -9,7 +9,7 @@
       "source_counts": {
         "domain_suffix": 110448
       },
-      "native_rule_count": 110448,
+      "native_rule_count": 110445,
       "unconverted_regex_count": 0
     },
     "GeoIPCN": {
