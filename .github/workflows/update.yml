@@ -32,31 +32,39 @@ jobs:
 
       - name: Convert rules
         run: |
-          git clone --depth 1 https://github.com/SagerNet/sing-geosite.git
-
           mkdir -p rules
 
-          python3 - <<'PY'
-          import os
+          sing-box rule-set decompile bybit.srs -o bybit.json
+          sing-box rule-set decompile binance.srs -o binance.json
+
+          python3 <<'PY'
+          import json
 
           def convert(src, dst):
-              with open(src, "rb") as f:
-                  data = f.read()
+              with open(src, "r", encoding="utf-8") as f:
+                  data = json.load(f)
 
               domains = []
-              text = data.decode("utf-8", errors="ignore")
 
-              for line in text.splitlines():
-                  line = line.strip()
-                  if "." in line and not line.startswith("#"):
-                      domains.append(line)
+              def walk(obj):
+                  if isinstance(obj, dict):
+                      for k, v in obj.items():
+                          if k == "domain_suffix":
+                              domains.extend(v)
+                          else:
+                              walk(v)
+                  elif isinstance(obj, list):
+                      for x in obj:
+                          walk(x)
 
-              with open(dst, "w") as f:
+              walk(data)
+
+              with open(dst, "w", encoding="utf-8") as f:
                   for d in sorted(set(domains)):
-                      f.write("DOMAIN-SUFFIX," + d + "\n")
+                      f.write(f"DOMAIN-SUFFIX,{d}\n")
 
-          convert("bybit.srs", "rules/Bybit.list")
-          convert("binance.srs", "rules/Binance.list")
+          convert("bybit.json", "rules/Bybit.list")
+          convert("binance.json", "rules/Binance.list")
           PY
 
       - name: Commit changes
