@@ -32,7 +32,32 @@ jobs:
 
       - name: Convert rules
         run: |
-          echo "TODO: convert srs to shadowrocket list"
+          git clone --depth 1 https://github.com/SagerNet/sing-geosite.git
+
+          mkdir -p rules
+
+          python3 - <<'PY'
+          import os
+
+          def convert(src, dst):
+              with open(src, "rb") as f:
+                  data = f.read()
+
+              domains = []
+              text = data.decode("utf-8", errors="ignore")
+
+              for line in text.splitlines():
+                  line = line.strip()
+                  if "." in line and not line.startswith("#"):
+                      domains.append(line)
+
+              with open(dst, "w") as f:
+                  for d in sorted(set(domains)):
+                      f.write("DOMAIN-SUFFIX," + d + "\n")
+
+          convert("bybit.srs", "rules/Bybit.list")
+          convert("binance.srs", "rules/Binance.list")
+          PY
 
       - name: Commit changes
         run: |
