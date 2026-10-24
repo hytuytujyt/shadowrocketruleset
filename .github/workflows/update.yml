@@ -67,6 +67,10 @@ jobs:
           convert("binance.json", "rules/Binance.list")
           PY
 
+      # New: three additional MetaCubeX sets. Existing exchange steps above are unchanged.
+      - name: Generate additional Shadowrocket rule sets
+        run: python3 scripts/update_extra_rules.py --allow-unconverted-regex
+
       - name: Clean temporary files
         run: |
           rm -f *.srs *.json
