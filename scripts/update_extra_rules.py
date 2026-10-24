@@ -96,6 +96,13 @@ def main():
         url = 'https://raw.githubusercontent.com/' + REPO + '/' + commit + '/' + source
         raw = download(url)
         lines, regexes, counts = convert(json.loads(raw))
+        if name == 'GeositeCN':
+            excluded_rules = {
+                'DOMAIN-SUFFIX,ms',
+                'DOMAIN-SUFFIX,wang',
+                'DOMAIN-SUFFIX,full',
+            }
+            lines = [line for line in lines if line not in excluded_rules]
         if regexes and not args.allow_unconverted_regex:
             raise ValueError(f'{name}: {len(regexes)} unsupported regex rules; no outputs written. '
                              'Use --allow-unconverted-regex only after accepting this limitation.')
