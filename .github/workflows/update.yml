@@ -1,0 +1,43 @@
+name: Update Shadowrocket Rules
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install sing-box
+        run: |
+          curl -fsSL https://sing-box.app/install.sh | sh
+
+      - name: Download geosite source
+        run: |
+          mkdir -p rules
+
+          curl -L https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-bybit.srs \
+          -o bybit.srs
+
+          curl -L https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/binance.srs \
+          -o binance.srs
+
+      - name: Convert rules
+        run: |
+          echo "TODO: convert srs to shadowrocket list"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update Shadowrocket rules" || exit 0
+          git push
