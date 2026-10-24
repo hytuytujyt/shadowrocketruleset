@@ -44,13 +44,17 @@ jobs:
               with open(src, "r", encoding="utf-8") as f:
                   data = json.load(f)
 
-              domains = []
+              rules = set()
 
               def walk(obj):
                   if isinstance(obj, dict):
                       for k, v in obj.items():
-                          if k == "domain_suffix":
-                              domains.extend(v)
+                          if k == "domain":
+                              for d in v:
+                                  rules.add(("DOMAIN", d))
+                          elif k == "domain_suffix":
+                              for d in v:
+                                  rules.add(("DOMAIN-SUFFIX", d))
                           else:
                               walk(v)
                   elif isinstance(obj, list):
@@ -60,8 +64,8 @@ jobs:
               walk(data)
 
               with open(dst, "w", encoding="utf-8") as f:
-                  for d in sorted(set(domains)):
-                      f.write(f"DOMAIN-SUFFIX,{d}\n")
+                  for rule_type, domain in sorted(rules):
+                      f.write(f"{rule_type},{domain}\n")
 
           convert("bybit.json", "rules/Bybit.list")
           convert("binance.json", "rules/Binance.list")
