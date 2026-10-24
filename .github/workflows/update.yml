@@ -67,6 +67,10 @@ jobs:
           convert("binance.json", "rules/Binance.list")
           PY
 
+      - name: Clean temporary files
+        run: |
+          rm -f *.srs *.json
+
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
