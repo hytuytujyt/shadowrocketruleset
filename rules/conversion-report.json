@@ -1,10 +1,10 @@
 {
   "upstream_repository": "MetaCubeX/meta-rules-dat",
-  "upstream_commit": "abc596b6f1b60295ed2b35478ba9b2206617bb69",
+  "upstream_commit": "77778b79baf08c86cc54892fea9b9b8c86ec850a",
   "mode": "native-compatibility; archived regex rules are NOT active",
   "sets": {
     "GeositeCN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/abc596b6f1b60295ed2b35478ba9b2206617bb69/geo/geosite/cn.json",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geosite/cn.json",
       "source_sha256": "d4023e900f5751c428f5eb51e0b8875be7fa4b9786d8e9f58dbec3ee06c4f85e",
       "source_counts": {
         "domain_suffix": 110448
@@ -13,7 +13,7 @@
       "unconverted_regex_count": 0
     },
     "GeoIPCN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/abc596b6f1b60295ed2b35478ba9b2206617bb69/geo/geoip/cn.json",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geoip/cn.json",
       "source_sha256": "33e82250c48e8c80c4e588493175be1539eb2cfaf0f263097507f52dd1824b91",
       "source_counts": {
         "ip_cidr": 10011
@@ -22,14 +22,14 @@
       "unconverted_regex_count": 0
     },
     "Geolocation-!CN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/abc596b6f1b60295ed2b35478ba9b2206617bb69/geo/geosite/geolocation-!cn.json",
-      "source_sha256": "576a1b4140e2ae8f6fd8865c7a56db6b5242ae9c3fcc30c9ee158c39d3c1105a",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geosite/geolocation-!cn.json",
+      "source_sha256": "e5ef204c3845ac659d5f2305cf28e09b46aac7f0083ae1599058c88f2fe70435",
       "source_counts": {
         "domain": 762,
-        "domain_suffix": 26507,
+        "domain_suffix": 26511,
         "domain_regex": 151
       },
-      "native_rule_count": 27269,
+      "native_rule_count": 27273,
       "unconverted_regex_count": 151
     }
   }

@@ -1,4 +1,4 @@
-# Generated from https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/abc596b6f1b60295ed2b35478ba9b2206617bb69/geo/geoip/cn.json
+# Generated from https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geoip/cn.json
 # Native Shadowrocket rules; policy is supplied by RULE-SET in the main config.
 IP-CIDR,1.0.1.0/24
 IP-CIDR,1.0.2.0/23
