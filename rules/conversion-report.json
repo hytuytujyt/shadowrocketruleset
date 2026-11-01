@@ -1,35 +1,35 @@
 {
   "upstream_repository": "MetaCubeX/meta-rules-dat",
-  "upstream_commit": "77778b79baf08c86cc54892fea9b9b8c86ec850a",
+  "upstream_commit": "6fc21bcb856169abdf8589e47d6ee210d95ea09d",
   "mode": "native-compatibility; archived regex rules are NOT active",
   "sets": {
     "GeositeCN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geosite/cn.json",
-      "source_sha256": "d4023e900f5751c428f5eb51e0b8875be7fa4b9786d8e9f58dbec3ee06c4f85e",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/6fc21bcb856169abdf8589e47d6ee210d95ea09d/geo/geosite/cn.json",
+      "source_sha256": "d89b0db6c1592a70bc2bde4cca69c6d773170a55f20597bd1bc6887bcfdae2fb",
       "source_counts": {
-        "domain_suffix": 110448
+        "domain_suffix": 110177
       },
-      "native_rule_count": 110445,
+      "native_rule_count": 110174,
       "unconverted_regex_count": 0
     },
     "GeoIPCN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geoip/cn.json",
-      "source_sha256": "33e82250c48e8c80c4e588493175be1539eb2cfaf0f263097507f52dd1824b91",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/6fc21bcb856169abdf8589e47d6ee210d95ea09d/geo/geoip/cn.json",
+      "source_sha256": "8b5792844710bfcb4bed7c1c5f4b599ede0424b6df43a72b0928801b74528f63",
       "source_counts": {
-        "ip_cidr": 10011
+        "ip_cidr": 10012
       },
-      "native_rule_count": 10011,
+      "native_rule_count": 10012,
       "unconverted_regex_count": 0
     },
     "Geolocation-!CN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/77778b79baf08c86cc54892fea9b9b8c86ec850a/geo/geosite/geolocation-!cn.json",
-      "source_sha256": "e5ef204c3845ac659d5f2305cf28e09b46aac7f0083ae1599058c88f2fe70435",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/6fc21bcb856169abdf8589e47d6ee210d95ea09d/geo/geosite/geolocation-!cn.json",
+      "source_sha256": "9293fe79c68cdd0ba28644f095540fa6a3411de95f17acf4d70395270b620363",
       "source_counts": {
-        "domain": 762,
-        "domain_suffix": 26511,
+        "domain": 768,
+        "domain_suffix": 26514,
         "domain_regex": 151
       },
-      "native_rule_count": 27273,
+      "native_rule_count": 27282,
       "unconverted_regex_count": 151
     }
   }
