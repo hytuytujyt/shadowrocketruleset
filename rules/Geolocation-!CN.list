@@ -1,4 +1,4 @@
-# Generated from https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/6fc21bcb856169abdf8589e47d6ee210d95ea09d/geo/geosite/geolocation-!cn.json
+# Generated from https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/1df33612b1ccc2346e4dbe47a69facf7d1c780bf/geo/geosite/geolocation-!cn.json
 # Native Shadowrocket rules; policy is supplied by RULE-SET in the main config.
 # WARNING: 151 domain_regex rules are NOT active; see Geolocation-!CN.unconverted.json
 DOMAIN,1password.drift.click
@@ -269,6 +269,7 @@ DOMAIN,holoxx.f5.si
 DOMAIN,homebrew.bintray.com
 DOMAIN,hpefonts.s3.amazonaws.com
 DOMAIN,hpstore.corpmerchandise.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,hub.slarker.me
 DOMAIN,hulu.playback.edge.bamgrid.com
 DOMAIN,i.jeded.com
@@ -354,6 +355,7 @@ DOMAIN,ntppool2.time.nl
 DOMAIN,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com
 DOMAIN,nvidia.custhelp.com
 DOMAIN,nvidia.tt.omtrdc.net
+DOMAIN,o1158394.ingest.us.sentry.io
 DOMAIN,ocsp.microsoft.com
 DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN,onekey.zendesk.com
@@ -382,6 +384,7 @@ DOMAIN,practivate.adobe.com
 DOMAIN,prd-priconne-redive.akamaized.net
 DOMAIN,preprod-publicca.googleapis.com
 DOMAIN,prodforza.blob.core.windows.net
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,productionresultssa0.blob.core.windows.net
 DOMAIN,productionresultssa1.blob.core.windows.net
@@ -4135,6 +4138,7 @@ DOMAIN-SUFFIX,beget.app
 DOMAIN-SUFFIX,beget.cloud
 DOMAIN-SUFFIX,beget.com
 DOMAIN-SUFFIX,beget.de
+DOMAIN-SUFFIX,beget.email
 DOMAIN-SUFFIX,beget.hosting
 DOMAIN-SUFFIX,beget.pro
 DOMAIN-SUFFIX,beget.ru
@@ -4358,6 +4362,7 @@ DOMAIN-SUFFIX,bild.de
 DOMAIN-SUFFIX,bili2.cc
 DOMAIN-SUFFIX,bili888.com
 DOMAIN-SUFFIX,bili999.com
+DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilinovel.com
 DOMAIN-SUFFIX,biliplus.com
 DOMAIN-SUFFIX,biliworld.com
@@ -4712,6 +4717,7 @@ DOMAIN-SUFFIX,bmi.ir
 DOMAIN-SUFFIX,bmia.org
 DOMAIN-SUFFIX,bmj.com
 DOMAIN-SUFFIX,bml.info
+DOMAIN-SUFFIX,bmonkeys.net
 DOMAIN-SUFFIX,bmw
 DOMAIN-SUFFIX,bmw-abudhabi.com
 DOMAIN-SUFFIX,bmw-adventskalender.com
@@ -5136,6 +5142,7 @@ DOMAIN-SUFFIX,boj.or.jp
 DOMAIN-SUFFIX,bokep.net
 DOMAIN-SUFFIX,bokepseks.org
 DOMAIN-SUFFIX,bokepvidz.com
+DOMAIN-SUFFIX,boldgrid.com
 DOMAIN-SUFFIX,bolehvpn.net
 DOMAIN-SUFFIX,bollywoodlife.com
 DOMAIN-SUFFIX,boltdns.net
@@ -6471,6 +6478,7 @@ DOMAIN-SUFFIX,cloudn.me
 DOMAIN-SUFFIX,cloudproxy.app
 DOMAIN-SUFFIX,cloudrobotics.com
 DOMAIN-SUFFIX,cloudvolumes.com
+DOMAIN-SUFFIX,cloudwp.dev
 DOMAIN-SUFFIX,cloudyzgirl.com
 DOMAIN-SUFFIX,cloupia.com
 DOMAIN-SUFFIX,cloupia.net
@@ -11415,6 +11423,7 @@ DOMAIN-SUFFIX,greginhollywood.com
 DOMAIN-SUFFIX,gridaware.app
 DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grooby.com
 DOMAIN-SUFFIX,groq.com
@@ -14890,6 +14899,9 @@ DOMAIN-SUFFIX,lilaoshibushinilaoshi.com
 DOMAIN-SUFFIX,lilhumpers.com
 DOMAIN-SUFFIX,liliav.com
 DOMAIN-SUFFIX,lilith-soft.com
+DOMAIN-SUFFIX,limbuscompany.global
+DOMAIN-SUFFIX,limbuscompanyapi.com
+DOMAIN-SUFFIX,limbuscompanycdn.org
 DOMAIN-SUFFIX,limedia.tw
 DOMAIN-SUFFIX,limelight.com
 DOMAIN-SUFFIX,limer.tw
@@ -19779,6 +19791,7 @@ DOMAIN-SUFFIX,projectbaseline.com
 DOMAIN-SUFFIX,projectcircuitbreaker.com
 DOMAIN-SUFFIX,projecteuclid.org
 DOMAIN-SUFFIX,projectjav.com
+DOMAIN-SUFFIX,projectmoon.studio
 DOMAIN-SUFFIX,projectmurphy.net
 DOMAIN-SUFFIX,projectpoint.com
 DOMAIN-SUFFIX,projectpoint.net
@@ -21627,6 +21640,7 @@ DOMAIN-SUFFIX,skills.sh
 DOMAIN-SUFFIX,skillshare.com
 DOMAIN-SUFFIX,skimtube.com
 DOMAIN-SUFFIX,skinstrip.net
+DOMAIN-SUFFIX,skinswap.com
 DOMAIN-SUFFIX,skokka.com
 DOMAIN-SUFFIX,sksarab.top
 DOMAIN-SUFFIX,skunkgirl.cc
@@ -22308,6 +22322,7 @@ DOMAIN-SUFFIX,steaminventoryhelper.com
 DOMAIN-SUFFIX,steamladder.com
 DOMAIN-SUFFIX,steamofporn.com
 DOMAIN-SUFFIX,steamos.cloud
+DOMAIN-SUFFIX,steampeek.hu
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
@@ -24848,6 +24863,7 @@ DOMAIN-SUFFIX,vodafone.com.tr
 DOMAIN-SUFFIX,vodafone.de
 DOMAIN-SUFFIX,vodafone.it
 DOMAIN-SUFFIX,vodafone.nl
+DOMAIN-SUFFIX,vodafoneziggo.nl
 DOMAIN-SUFFIX,voicettank.org
 DOMAIN-SUFFIX,vokevr.com
 DOMAIN-SUFFIX,vol.moe
@@ -25306,7 +25322,9 @@ DOMAIN-SUFFIX,webex.com.mx
 DOMAIN-SUFFIX,webex.de
 DOMAIN-SUFFIX,webex.es
 DOMAIN-SUFFIX,webex.fr
+DOMAIN-SUFFIX,webflow-ext.com
 DOMAIN-SUFFIX,webflow.com
+DOMAIN-SUFFIX,webflow.io
 DOMAIN-SUFFIX,webgata.net
 DOMAIN-SUFFIX,webgirlsonline.net
 DOMAIN-SUFFIX,webhosting.com
@@ -25329,6 +25347,7 @@ DOMAIN-SUFFIX,webpkgcache.com
 DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,websdr.org
 DOMAIN-SUFFIX,webshare.io
+DOMAIN-SUFFIX,website-files.com
 DOMAIN-SUFFIX,website.new
 DOMAIN-SUFFIX,webtoons.com
 DOMAIN-SUFFIX,webtoonscorp.com
@@ -27168,6 +27187,7 @@ DOMAIN-SUFFIX,zhuichaguoji.org
 DOMAIN-SUFFIX,zhuzhushipin-app.com
 DOMAIN-SUFFIX,zi.media
 DOMAIN-SUFFIX,zibacity.com
+DOMAIN-SUFFIX,ziggo.nl
 DOMAIN-SUFFIX,ziglang.org
 DOMAIN-SUFFIX,zigzag.kr
 DOMAIN-SUFFIX,zillionk.com

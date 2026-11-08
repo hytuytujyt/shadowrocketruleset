@@ -1,4 +1,4 @@
-# Generated from https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/6fc21bcb856169abdf8589e47d6ee210d95ea09d/geo/geosite/cn.json
+# Generated from https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/1df33612b1ccc2346e4dbe47a69facf7d1c780bf/geo/geosite/cn.json
 # Native Shadowrocket rules; policy is supplied by RULE-SET in the main config.
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
