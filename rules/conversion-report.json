@@ -1,10 +1,10 @@
 {
   "upstream_repository": "MetaCubeX/meta-rules-dat",
-  "upstream_commit": "1df33612b1ccc2346e4dbe47a69facf7d1c780bf",
+  "upstream_commit": "886dcb9991dc64e05d4caf6706956e0590b47aea",
   "mode": "native-compatibility; archived regex rules are NOT active",
   "sets": {
     "GeositeCN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/1df33612b1ccc2346e4dbe47a69facf7d1c780bf/geo/geosite/cn.json",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/886dcb9991dc64e05d4caf6706956e0590b47aea/geo/geosite/cn.json",
       "source_sha256": "d89b0db6c1592a70bc2bde4cca69c6d773170a55f20597bd1bc6887bcfdae2fb",
       "source_counts": {
         "domain_suffix": 110177
@@ -13,23 +13,23 @@
       "unconverted_regex_count": 0
     },
     "GeoIPCN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/1df33612b1ccc2346e4dbe47a69facf7d1c780bf/geo/geoip/cn.json",
-      "source_sha256": "25120258c3feb8b703e9804174b4d4feec3fe9b3aacfef4e0255d91cc00f3282",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/886dcb9991dc64e05d4caf6706956e0590b47aea/geo/geoip/cn.json",
+      "source_sha256": "5b2b6cdac23cbc0833a44982fbde1a736f6f3cebd5eadd1773a77bc953de020d",
       "source_counts": {
-        "ip_cidr": 9647
+        "ip_cidr": 9640
       },
-      "native_rule_count": 9647,
+      "native_rule_count": 9640,
       "unconverted_regex_count": 0
     },
     "Geolocation-!CN": {
-      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/1df33612b1ccc2346e4dbe47a69facf7d1c780bf/geo/geosite/geolocation-!cn.json",
-      "source_sha256": "c4124b0e9557652f050012f1ea85b5b67899a5459113794c2ccb74191985a86b",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/886dcb9991dc64e05d4caf6706956e0590b47aea/geo/geosite/geolocation-!cn.json",
+      "source_sha256": "267ddf9302829985ff8f555b7a201dda9707781e6ae26b9948293e0328e889e5",
       "source_counts": {
         "domain": 771,
-        "domain_suffix": 26531,
+        "domain_suffix": 26537,
         "domain_regex": 151
       },
-      "native_rule_count": 27302,
+      "native_rule_count": 27308,
       "unconverted_regex_count": 151
     }
   }
