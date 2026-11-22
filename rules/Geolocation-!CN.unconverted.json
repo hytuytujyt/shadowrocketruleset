@@ -1,6 +1,6 @@
 {
   "warning": "These regex rules are archived only and NOT active in Shadowrocket.",
-  "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/886dcb9991dc64e05d4caf6706956e0590b47aea/geo/geosite/geolocation-!cn.json",
+  "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b1f288ee1427724687dc2c08d1d54a5fed2f2ee2/geo/geosite/geolocation-!cn.json",
   "domain_regex": [
     "(^|\\.)13mei[5-7]\\.buzz$",
     "(^|\\.)18j[efg]\\.life$",
